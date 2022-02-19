@@ -14,7 +14,8 @@ public class HomeController {
 	}
 	@GetMapping ("/affichage")
 	public String affichage () {
-		
+		System.out.println("Bonjour methode affichage");
+
 		return "home/affichage";
 	}
 }
